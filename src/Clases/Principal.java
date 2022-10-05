@@ -83,6 +83,13 @@ public class Principal {
             }
         );
 
+        ClaseGenerica<Integer, String> algo = new ClaseGenerica(1, "dos");
+        ClaseGenerica<String, Integer> algo2 = new ClaseGenerica("uno", 2);
+
+        ArrayList<ClaseGenerica> alGenerico = new ArrayList<>();
+        alGenerico.add(algo);
+        alGenerico.add(algo2);
+
     }
 
 
